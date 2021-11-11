@@ -4,9 +4,9 @@ Por conta de um problema com o Google Classroom do IESB, vamos seguir por aqui c
 
 ## Material e Exemplos
 
-O material se encontra na pasta [Material](material).
+O material se encontra na pasta [Material](https://github.com/IESB-Dispositivos-Moveis-2021-1/Disciplina3/tree/master/Material).
 
-Exemplos podem ser consultados na pasta [Exemplo](./exemplo)
+Exemplos podem ser consultados na pasta [Exemplo](https://github.com/IESB-Dispositivos-Moveis-2021-1/Disciplina3/tree/master/Exemplo)
 
 As gravações das aulas seguem como antes.
 
