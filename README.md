@@ -16,7 +16,7 @@ O projeto final da disciplina, também por conta do problema com o Google Classr
 
 ## Prazo
 
-O projeto final deverá ser entregue até o dia 09/12/2021 às 19:14.
+O projeto final deverá ser entregue até o dia 27/01/2022 às 19:14.
 
 ## Da entrega
 
