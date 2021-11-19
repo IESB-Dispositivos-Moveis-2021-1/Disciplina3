@@ -16,6 +16,7 @@
 		EBBCDD9727471D3B00A71570 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBCDD9627471D3B00A71570 /* ImagePicker.swift */; };
 		EBBCDD992747221D00A71570 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBCDD982747221D00A71570 /* Detector.swift */; };
 		EBBCDD9B27472C4800A71570 /* FlowerDetectorLessEpochs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EBBCDD9A27472C4700A71570 /* FlowerDetectorLessEpochs.mlmodel */; };
+		EBBCDD9D274736D400A71570 /* FlowerDetectorTuri.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EBBCDD9C274736D400A71570 /* FlowerDetectorTuri.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		EBBCDD9627471D3B00A71570 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		EBBCDD982747221D00A71570 /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
 		EBBCDD9A27472C4700A71570 /* FlowerDetectorLessEpochs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerDetectorLessEpochs.mlmodel; sourceTree = "<group>"; };
+		EBBCDD9C274736D400A71570 /* FlowerDetectorTuri.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerDetectorTuri.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				EBBCDD9227471C0F00A71570 /* FlowerDetector.mlmodel */,
 				EBBCDD9A27472C4700A71570 /* FlowerDetectorLessEpochs.mlmodel */,
+				EBBCDD9C274736D400A71570 /* FlowerDetectorTuri.mlmodel */,
 				EBBCDD8427471BEC00A71570 /* DetectorApp.swift */,
 				EBBCDD8627471BEC00A71570 /* ContentView.swift */,
 				EBBCDD8827471BEE00A71570 /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 				EBBCDD9B27472C4800A71570 /* FlowerDetectorLessEpochs.mlmodel in Sources */,
 				EBBCDD9527471CBE00A71570 /* ImageAcquisitionController.swift in Sources */,
 				EBBCDD8527471BEC00A71570 /* DetectorApp.swift in Sources */,
+				EBBCDD9D274736D400A71570 /* FlowerDetectorTuri.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
