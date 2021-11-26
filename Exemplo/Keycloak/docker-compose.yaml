@@ -1,0 +1,50 @@
+version: "3.9"
+services:
+  postgres:
+    container_name: IESB-PostgreSQL
+    image: postgres:12-alpine
+    hostname: postgres-keycloak
+    restart: always
+    healthcheck:
+      test: pg_isready -U postgres -d keycloak
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    volumes:
+      - type: volume
+        source: postgres
+        target: /var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=keycloak
+    ports:
+      - "15432:5432"
+  
+  keycloak:
+    container_name: IESB-Keycloak
+    image: jboss/keycloak:latest
+    hostname: keycloak
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: "2"
+          memory: 2G
+    depends_on:
+      - postgres
+    environment:
+      - KEYCLOAK_USER=admin
+      - KEYCLOAK_PASSWORD=admin
+      - DB_VENDOR=postgres
+      - DB_ADDR=postgres-keycloak
+      - DB_PORT=5432
+      - DB_DATABASE=keycloak
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      - PROXY_ADDRESS_FORWARDING=true
+    ports:
+      - "9090:8080"
+
+volumes:
+  postgres:
