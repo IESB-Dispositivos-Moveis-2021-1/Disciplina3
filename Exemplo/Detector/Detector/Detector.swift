@@ -34,7 +34,7 @@ class Detector: ObservableObject {
         let configuration = MLModelConfiguration()
         configuration.allowLowPrecisionAccumulationOnGPU = true
         
-        if let model = try? VNCoreMLModel(for: FlowerDetectorTuri(configuration: configuration).model) {
+        if let model = try? VNCoreMLModel(for: GenderDetector(configuration: configuration).model) {
             classificationRequest = VNCoreMLRequest(model: model, completionHandler: handleClassification(request:error:))
         }
     }

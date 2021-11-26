@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB5C40D927507F9B00139B4A /* GenderDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB5C40D827507F9B00139B4A /* GenderDetector.mlmodel */; };
 		EBBCDD8527471BEC00A71570 /* DetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBCDD8427471BEC00A71570 /* DetectorApp.swift */; };
 		EBBCDD8727471BEC00A71570 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBCDD8627471BEC00A71570 /* ContentView.swift */; };
 		EBBCDD8927471BEE00A71570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBCDD8827471BEE00A71570 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB5C40D827507F9B00139B4A /* GenderDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GenderDetector.mlmodel; sourceTree = "<group>"; };
 		EBBCDD8127471BEC00A71570 /* Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Detector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBCDD8427471BEC00A71570 /* DetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorApp.swift; sourceTree = "<group>"; };
 		EBBCDD8627471BEC00A71570 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		EBBCDD8327471BEC00A71570 /* Detector */ = {
 			isa = PBXGroup;
 			children = (
+				EB5C40D827507F9B00139B4A /* GenderDetector.mlmodel */,
 				EBBCDD9227471C0F00A71570 /* FlowerDetector.mlmodel */,
 				EBBCDD9A27472C4700A71570 /* FlowerDetectorLessEpochs.mlmodel */,
 				EBBCDD9C274736D400A71570 /* FlowerDetectorTuri.mlmodel */,
@@ -157,6 +160,7 @@
 			files = (
 				EBBCDD992747221D00A71570 /* Detector.swift in Sources */,
 				EBBCDD9727471D3B00A71570 /* ImagePicker.swift in Sources */,
+				EB5C40D927507F9B00139B4A /* GenderDetector.mlmodel in Sources */,
 				EBBCDD9327471C0F00A71570 /* FlowerDetector.mlmodel in Sources */,
 				EBBCDD8727471BEC00A71570 /* ContentView.swift in Sources */,
 				EBBCDD9B27472C4800A71570 /* FlowerDetectorLessEpochs.mlmodel in Sources */,
